@@ -1,0 +1,69 @@
+div{
+    background-color: purple;
+    margin: 10px;
+}
+span{
+    font-weight: bold;
+}
+h1#principal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(83,58,109);
+    background-color: rosybrown;
+    border: 2px solid rgb(138,46,224);
+
+}
+div.agrupamentos{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(29,9,48,0.603);
+    background-color: aqua;
+    border: 2px solid gray;
+    margin: 20px;
+    padding: 20px;
+}
+.personalizado{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(216,197,233,0.616);
+    border: 20px solid burlywood;
+    margin: 10px;
+    padding: 10px;
+}
+.personalizado:hover{
+    color: lime;
+    background-color: limegreen;
+    margin: 30px;
+    padding: 20px;
+}
+.ex01{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    border: 1px solid cadetblue;
+    margin: 10px;
+    padding: 10px;
+    width: 80px;
+    height: 30px;
+}
+.ex02{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lime;
+    border: 8px solid orange;
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+}
+.pseudo > span{
+    display: none;
+}
+.pseudo:hover > span{
+    display: block;
+    background-color: aqua;
+}
+h3::selection{
+    color: red;
+    background-color: yellow;
+}
+p::first-letter{
+    color: rgb(179, 204, 35);
+    font-size: xx-large;
+}
