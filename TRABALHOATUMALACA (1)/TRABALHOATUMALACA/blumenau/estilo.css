@@ -1,0 +1,89 @@
+body {
+	background: hsl(60, 16%, 79%) url('imagens/fundo.png');
+	font: 16px Arial, Helvetca, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+#principal {
+	margin: 25px;
+	align-content: center;
+	background: #c5c5b2;
+}
+
+#menu {
+	width: 19%;
+	background: #c5c5b2;
+	padding: 1.6px;
+	position: absolute;
+	left: 79.3%;
+	top: 3.3%;
+}
+
+#content {
+	background: #e8e8e9;
+	padding: 10px;
+	top: 7%;
+	position:absolute;
+	margin-right: 20px;
+}
+#content02 {	
+	width: 95%;
+	background: #e8e8e9;
+	position:absolute;
+	padding: 10px;
+	text-align: center;
+}
+#content03 {	
+	width: 95%;
+	background: #e8e8e9;
+	position:absolute;
+	padding: 10px;
+	text-align: center;
+}
+
+#bande{
+	position: absolute;
+	left:43%;
+	top: 72%;
+}
+
+#rodape {
+	position: absolute;
+	top: 100%;
+	left: 45.18%;
+	color: #4b566a;
+	
+}
+#rodape2 {
+	position: absolute;
+	top: 180%;
+	left: 45.18%;
+	color: #4b566a;
+}
+#rodape3{
+	position: absolute;
+	top: 120%;
+	left: 45.18%;
+	color: #4b566a;
+}
+
+#t1{
+	text-align: center;
+}
+
+a {
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+}
+
+h1 {
+	color: #4b566a;
+	font-size: 1.2em;
+}
+
+h2 {
+	color: #4b566a;
+	font-size: 1em;
+}
